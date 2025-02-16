@@ -83,7 +83,7 @@ a:hover {
 .container {
   max-width: 142rem;
   margin: 0 auto;
-  padding: 9.6rem .4rem;
+  padding: 9.6rem 2.4rem;
 }
 :is(
     .section-extra-product,
@@ -313,6 +313,14 @@ main .section-hero {
   height: auto;
   /* transform: scaleX(-1); */
 }
+.home_image{
+  max-width: 75%;
+  /* width: 30%; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .div-extra {
   padding: 3.2rem 2.4rem;
   background-color: var(--backgroundSecondary);
@@ -520,7 +528,7 @@ textarea {
 }
 
 .contact_image {
-  max-width: 100%;
+  max-width: 90%;
   /* width: 30%; */
   height: auto;
   display: flex;
@@ -783,6 +791,8 @@ footer {
     order: 2;
   }
   .section-hero .section-hero-image {
+    height: auto;
+    width: 15rem;
     display: grid;
     place-items: center;
   }
@@ -791,7 +801,8 @@ footer {
     place-items: center;
   }
   .section-hero img {
-    width: 40%;
+    height: auto;
+    width: 15rem;
   }
   .section-about .about-div {
     text-align: left;
